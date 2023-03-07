@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+            *{
+                padding: 0px;
+                margin: 0px auto;
+            }
+            .wrapper{
+                border: 1px rgb(1, 23, 37) solid;
+                height: 700px;
+                width: 1000px;
+                background-color: rgb(255, 255, 255);
+        
+            }
+            header{
+                height: 100px;
+                width: 100%;
+                background:rgb(7, 70, 109);
+                position: relative;
+            }
+            .text {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        position: absolute;
+        top: 25px;
+        left: 100px;
+      }
+      .text2 {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 15px;
+        position: absolute; 
+        top: 70px;
+        left: 100px;
+      }
+            .top-menu li{
+                height: 50px;
+                width: 100px;
+                background-color:rgb(10, 130, 181);
+                list-style: none;
+                line-height: 50px;
+                text-indent: 20px;
+                position: absolute;
+            
+            }
+            li a{
+                text-decoration: none;
+                font-weight: bolder;
+                color: rgb(253, 253, 253);
+
+            }
+            .top-menu li:hover {
+                background: #9e1212;
+            }
+            .top-menu li:first-child{
+                width: 80px;
+                bottom: 0;
+                left: 410px;
+            }
+            .top-menu li:nth-child(2){
+                width: 110px;
+                bottom: 0;
+                left: 500px;
+            }
+           .top-menu li:nth-child(3){
+               width: 120px;
+                bottom: 0;
+                left: 620px;
+            }
+            .top-menu li:nth-child(4){
+               width: 150px;
+                bottom: 0;
+                left: 750px;
+            }
+            .top-menu li:last-child{
+                width: 80px;
+                bottom: 0;
+                left: 910px;
+            }
+            .content{
+                    height: 550px;
+                    width: 100%;
+                    background: #ffffff;
+                    position: relative;
+            }
+            .t{
+                margin-top: 40px;
+                font-size: 20px;
+                color: #0e2718;
+                left: 10px;
+            }
+            .te{
+                color: red;
+                font-style: italic;
+                text-shadow: 4px 5px 4px green;
+                left: 10px;
+            }
+            .iput {
+        position: absolute;
+        top: 20px;
+        right: 50px;
+      }
+      .ip1 {
+        color: aliceblue;
+        background-color: rgb(34, 34, 70);
+      }
+      .ip1:placeholder {
+        color: white;
+      }
+      button {
+        margin-left: 20px;
+        width: 50px;
+        background-color: rgb(34, 34, 70);
+        color: aliceblue;
+      }
+      .tb{
+        position: absolute;
+        width: 500px;
+        top: 130px;
+        left: 10px;
+      }
+        
+            footer{
+                height: 50px;
+                width: 100%;
+                background-color: rgb(3, 58, 93);
+            }
+           
+    </style>
+</head>
+<body>
+    <div class="wrapper"> 
+        <header> 
+            <div class="flower"> 
+                <img src="hinhbong.png" alt="bonghoa" width="70px" height="70px">
+                <p class="text">FlowerBox 360</p>
+                <p class="text2">...to get your daily dose of luxuly roses!</p>
+            </div>
+                <ul class="top-menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Promotion</a></li>
+                    <li><a href="">Gift Baskets</a></li>
+                    <li><a href="">Flower Services</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            <form class="iput" action="">
+                <p>
+                  <input class="ip1"type="text" required placeholder="Search the site..."
+                  />
+                  <button type="submit">Go</button>
+                </p>
+              </form>
+        </header>
+        <div class="content"> 
+            <div class="t">
+                Why Not Contact Us Today!
+            </div>
+            <p style="font-size: small;">-------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+            <div class="te">For flowerBox 360 shoppers that means only<br>
+                 can you send your friends and loves ones the <br>
+                 highest quantily flower found on online, but that <br>
+                  can do so at a great value.</div>
+                  <table class="tb">
+                    <tr>
+                      <td>Name: </td>
+                      <td>Email: </td>
+                    </tr>
+                    <tr>
+                      <td><input style="width: 150px;" type="text"></td>
+                      <td><input type="text"></td>
+                    </tr>
+                  </table>
+                 
+        </div>
+                
+    
+        <footer> 
+
+        </footer>
+    </div>
+</body>
+</html>

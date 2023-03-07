@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px auto;
+      }
+      .wrapper {
+        border: 1px black solid;
+        width: 1200px;
+        height: 750px;
+        background-color: aqua;
+      }
+      header {
+        width: 100%;
+        height: 150px;
+        background-color: rgb(52, 52, 183);
+        position: relative;
+      }
+      .content {
+        width: 100%;
+        height: 550px;
+        background-color: white;
+        position: relative;
+      }
+      footer {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(8, 8, 84);
+      }
+      .tieude {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+      }
+      .top-menu li {
+        position: absolute;
+        height: 50px;
+        width: 100px;
+        background-color: rgb(104, 104, 225);
+        line-height: 50px;
+        list-style: none;
+        text-align: center;
+      }
+      .top-menu li:first-child {
+        bottom: 0px;
+        left: 500px;
+      }
+      .top-menu li:nth-child(2) {
+        width: 120px;
+        bottom: 0px;
+        left: 610px;
+      }
+      .top-menu li:nth-child(3) {
+        width: 150px;
+        bottom: 0px;
+        left: 740px;
+      }
+      .top-menu li:nth-child(4) {
+        width: 180px;
+        bottom: 0px;
+        left: 900px;
+      }
+      .top-menu li:last-child {
+        bottom: 0px;
+        left: 1090px;
+      }
+      li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+      }
+      .top-menu li:hover {
+        background-color: #777;
+      }
+      li:hover > a {
+        color: black;
+        font-style: italic;
+      }
+      .img1 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+      }
+      .text {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 35px;
+        position: absolute;
+        top: 25px;
+        left: 100px;
+      }
+      .text2 {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 15px;
+        position: absolute;
+        top: 70px;
+        left: 100px;
+      }
+      .p1 {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        color: brown;
+        font-size: 25px;
+      }
+      .p2 {
+        top: 90px;
+        position: absolute;
+        left: 10px;
+        color: brown;
+      }
+      .p3{
+        color: red;
+        font-size: 20px;
+        text-shadow: 5px 5px 5px green;
+        position: absolute;
+        width: 400px;
+        top: 110px;
+        left: 10px;
+      }
+      .iput {
+        position: absolute;
+        top: 20px;
+        right: 50px;
+      }
+      .ip1 {
+        color: aliceblue;
+        background-color: rgb(34, 34, 70);
+      }
+      .ip1::placeholder {
+        color: white;
+      }
+      button {
+        margin-left: 20px;
+        width: 50px;
+        background-color: rgb(34, 34, 70);
+        color: aliceblue;
+      }
+      .tb{
+        position: absolute;
+        width: 500px;
+        top: 220px;
+        left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img
+          class="img1"
+          src="../21058011_TruongCongDuy_DeTK3/img.png"
+          alt=""
+        />
+        <p class="text">FlowerBox 360</p>
+        <p class="text2">... to get your daily dose of luxuly roses!</p>
+        <ul class="top-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Promotion</a></li>
+          <li><a href="#">Gift Bastkets</a></li>
+          <li><a href="#">Flower Services</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <form class="iput" action="">
+          <p>
+            <input
+              class="ip1"
+              type="text"
+              required
+              placeholder="Search the site..."
+            />
+            <button type="submit">Go</button>
+          </p>
+        </form>
+      </header>
+      <div class="content">
+        <p class="p1">Why not contact us today!</p>
+        <p class="p2">
+          -----------------------------------------------------------------------------------------------------------------------
+        </p>
+        <p class="p3">
+          For flowerBox 360 shoppers that means not only can you send your
+          friends and loved ones the highest quaitly flower found on online, but
+          that you can do so at a great value.
+        </p>
+        <table class="tb">
+          <tr>
+            <td>Name: </td>
+            <td>Email: </td>
+          </tr>
+          <tr>
+            <td><input style="width: 100px;" type="text"></td>
+            <td><input type="text"></td>
+          </tr>
+        </table>
+      </div>
+
+      <footer></footer>
+    </div>
+  </body>
+</html>
